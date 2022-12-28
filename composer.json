@@ -1,0 +1,23 @@
+{
+    "name": "olorin/user-agent-parser-whichbrowser",
+    "description": "Implementation of UserAgentParserInterface using WhichBrowser/Parser-PHP library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hillel\\UserAgent\\WhichBrowserParser\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Hamenko",
+            "email": "hamenko.aleksandr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^9.19",
+        "whichbrowser/parser": "^2.1",
+        "olorin/user-agent-parser-interface": "^1.0"
+    }
+}
