@@ -16,7 +16,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/framework": "^9.19",
         "whichbrowser/parser": "^2.1",
         "olorin/user-agent-parser-interface": "^1.0"
     }
