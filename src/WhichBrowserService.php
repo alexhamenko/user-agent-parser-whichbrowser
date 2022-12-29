@@ -10,9 +10,9 @@ class WhichBrowserService implements UserAgentParserInterface
     /** @var Parser */
     protected $_data;
 
-    public function __construct()
+    public function parse(?string $user_agent = null): void
     {
-        $this->_data = new Parser(request()->userAgent());
+        $this->_data = new Parser($user_agent);
     }
 
     /**
